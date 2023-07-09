@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Summary Component</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section  style="background-image: url('img/pattern-background-desktop.svg');" class="bg-no-repeat bg-cover bg-blue-100">       
+        
+        <div  class="h-screen mx-auto flex flex-col gap-6 max-w-md justify-center items-center">
+            <div class="bg-white border border-gray-200 rounded-lg shadow overflow-hidden dark:bg-gray-800 hover:bg-gray-100">
+                <img  class="w-full object-cover" src="img/illustration-hero.svg" alt="">
+                <!-- order detail  -->
+                <div class="flex flex-col gap-5">
+                    <div class="flex flex-col gap-4 items-center py-3">
+                        <h2 class="font-extrabold text-xl">Order Summary</h2>
+                        <p class="font-light text-center px-4">You can now listen to millions of songs, audobooks and podcasts on any device anywhere you like</p>    
+                    </div>
+                    <div class="flex justify-around mx-auto w-4/5 py-4">
+                        <div class="flex">
+                            <img class="mr-5" src="img/icon-music.svg" alt="">
+                            <div class="musictitle">
+                                <h3 class="font-bold">Annual Plan</h3>
+                                <span class="text-gray-700 text-opacity-90">$59.99/year</span>
+                            </div>
+                        </div>
+
+                        <a class="font-medium text-blue-600 hover:underline" href="#">Change</a>
+                    </div>
+                    <div class="flex flex-col gap-4 items-center pb-10">
+                        <button class="bg-blue-800 text-white rounded-lg w-2/3 py-3">Proceed to Payment</button>
+                        <a class="font-medium  text-gray-700 text-opacity-90" href="#">Cancel Order</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
